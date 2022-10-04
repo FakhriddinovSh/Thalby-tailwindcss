@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahobiddin: Thalby Tailwindcss</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <!-- Header styles started -->
+    <header class="site-header relative md:static py-5 md:py-4">
+        <div class="container-my">
+            
+            <div class="flex items-center justify-between">
+                <a class="md:hidden" href="./index.html">
+                    <img src="./images/site-logo.svg"
+                    width="80"
+                    height="25"
+                    alt="Site logo">
+                </a>
+                
+                <div class="site-header__nav hidden md:flex flex-col md:flex-row absolute md:static top-full left-0 right-0 mx-auto bg-red-400 md:bg-white w-90% md:w-full py-6 md:py-0 md:items-center">
+                    <nav class="text-center md:text-left mb-5 md:mb-0 md:mr-24">
+                        <ul class="md:flex md:items-center font-bold text-base text-header-link">
+                            <li>
+                                <a href="#">Shop</a>
+                            </li>
+                            <li class="my-2 md:m-0 md:mx-7">
+                                <a href="#">Collections</a>
+                            </li>
+                            <li>
+                                <a href="#">Try a Free Guide</a>
+                            </li>
+                            <li class="mt-2 md:m-0 md:ml-7">
+                                <a href="#">Stories</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <a class="hidden md:block" href="./index.html" >
+                        <img src="./images/site-logo.svg"
+                        width="80"
+                        height="25"
+                        alt="Site logo">
+                    </a>
+                    
+                    <ul class="list-unstyled flex items-center justify-center md:ml-auto">
+                        <li>
+                            <a href="https://www.instagram.com/" target="blank">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_14)">
+                                        <path d="M18.2199 14.13C18.2199 15.38 17.857 16.387 17.132 17.072C16.405 17.758 15.398 18.122 14.188 18.122H5.96195C4.75195 18.122 3.74395 17.758 3.01795 17.072C2.29295 16.347 1.92795 15.339 1.92795 14.089V5.822C1.92795 4.612 5.19195 0.702 5.91695 -0.0240002C2.41195 -0.0220002 0.0749512 2.316 0.0749512 5.822V14.088C0.0749512 15.822 0.638951 17.315 1.76795 18.403C2.85695 19.451 4.30795 19.976 5.96195 19.976H14.188C15.921 19.976 17.3729 19.411 18.4209 18.403C19.51 17.355 20.075 15.863 20.075 14.129V5.822C20.075 4.129 19.51 2.677 18.462 1.629C17.4139 0.54 15.92 -0.0240002 14.228 -0.0240002H5.91995L3.01795 2.88C3.70395 2.194 4.75195 1.831 5.96195 1.831H14.268C15.478 1.831 16.486 2.194 17.212 2.921C17.898 3.646 18.2999 4.654 18.2999 5.823V14.13H18.2199ZM15.357 5.943C15.5133 5.94757 15.6689 5.92073 15.8147 5.86407C15.9605 5.8074 16.0934 5.72206 16.2056 5.61311C16.3178 5.50415 16.4069 5.37379 16.4679 5.22974C16.5288 5.0857 16.5601 4.93089 16.5601 4.7745C16.5601 4.61811 16.5288 4.4633 16.4679 4.31926C16.4069 4.17521 16.3178 4.04485 16.2056 3.93589C16.0934 3.82693 15.9605 3.7416 15.8147 3.68493C15.6689 3.62827 15.5133 3.60143 15.357 3.606C15.053 3.61489 14.7644 3.7419 14.5525 3.96007C14.3407 4.17823 14.2221 4.47038 14.2221 4.7745C14.2221 5.07862 14.3407 5.37077 14.5525 5.58893C14.7644 5.8071 15.053 5.93411 15.357 5.943ZM10.075 13.283C9.1991 13.2791 8.36024 12.9294 7.74091 12.31C7.12158 11.6907 6.7719 10.8519 6.76795 9.976C6.7719 9.10014 7.12158 8.26129 7.74091 7.64196C8.36024 7.02263 9.1991 6.67295 10.075 6.669C10.9508 6.67295 11.7897 7.02263 12.409 7.64196C13.0283 8.26129 13.378 9.10014 13.382 9.976C13.3777 10.8517 13.0279 11.6903 12.4086 12.3094C11.7893 12.9285 10.9506 13.2781 10.075 13.282V13.283ZM10.075 4.815C7.25295 4.815 4.91395 7.113 4.91395 9.976C4.9121 10.6543 5.04434 11.3262 5.30305 11.9532C5.56176 12.5802 5.94184 13.1499 6.42145 13.6295C6.90106 14.1091 7.47074 14.4892 8.09774 14.7479C8.72473 15.0066 9.39668 15.1388 10.075 15.137C12.938 15.137 15.235 12.798 15.235 9.977C15.235 7.153 12.897 4.815 10.075 4.815Z" fill="black"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_14">
+                                            <rect width="21" height="20" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="md:mx-7">
+                            <a href="#" target="blank">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24.873 24.884L29.965 29.976" stroke="black" stroke-width="2" stroke-miterlimit="20"/>
+                                    <path d="M27.273 19.088C27.273 21.262 26.4094 23.3469 24.8722 24.8842C23.3349 26.4214 21.25 27.285 19.076 27.285C16.902 27.285 14.8171 26.4214 13.2799 24.8842C11.7426 23.3469 10.879 21.262 10.879 19.088C10.879 16.914 11.7426 14.8291 13.2799 13.2918C14.8171 11.7546 16.902 10.891 19.076 10.891C21.25 10.891 23.3349 11.7546 24.8722 13.2918C26.4094 14.8291 27.273 16.914 27.273 19.088Z" stroke="black" stroke-width="2" stroke-miterlimit="20"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="blank">
+                                <svg width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.5179 16.4C12.5179 14.9059 13.1115 13.473 14.168 12.4165C15.2244 11.36 16.6573 10.7665 18.1514 10.7665C19.6455 10.7665 21.0784 11.36 22.1349 12.4165C23.1914 13.473 23.7849 14.9059 23.7849 16.4" stroke="black" stroke-width="2" stroke-miterlimit="20"/>
+                                    <path d="M25.534 31.976H10.769V17.211H25.534V31.976Z" stroke="black" stroke-width="2" stroke-miterlimit="20"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <button class="w-10 py-4 md:hidden" type="button" id="btn">
+                    <svg class="mx-auto" width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="1" fill="#33323D"/>
+                        <rect y="6" width="24" height="1" fill="#33323D"/>
+                        <rect y="12" width="24" height="1" fill="#33323D"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Header styles ended -->
+    
+    <!-- Main styles started -->
+    <main class="site-main">
+        <!-- Hero section started -->
+        <section class="bg-hero-bg py-10 md:py-24 hero">
+            <div class="container-my">
+                <div class="flex flex-col md:flex-row md:justify-between">
+                    <div class="text-center md:text-left">
+                        <h1 class="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-5 md:mb-11 leading-hero-title">Fall deeper in love <br> with <br> humanity.</h1>
+                        <div class="max-w-481 mx-auto md:mx-0 mb-6">
+                            <p class="text-2xl leading-7">
+                                Get to know the world through our concise, informative and inspiring guides.
+                            </p>
+                        </div>
+                        <a class="inline-block pt-2 pb-2 text-center text-white bg-black rounded-full w-32" href="#">Shop Now</a>
+                    </div>
+                    
+                    <div class="md:hidden">
+                        <img src="../src/images/hero-img.png"
+                        width="599"
+                        height="521"
+                        alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero section ended -->
+        
+        <!-- Guides section started -->
+        <section class="pt-14">
+            <div class="container-my">
+                <div class="text-center">
+                    <h2 class="font-bold text-4xl mb-7">
+                        Our guides explain countries and cultures.
+                    </h2>
+                    <div class="max-w-632 mx-auto">
+                        <p class="text-xl leading-6 mb-12">
+                            Are you curious about the world around you? Our guides are for smart global citizens, world travelers and engaged residents who want to gain a deeper understanding of the cultures and societies they care about.
+                        </p>
+                    </div>
+                    <p class="text-xl leading-6">
+                        Available as ebooks here and on Amazon.
+                    </p>
+                </div>
+                
+                <h3 class="mb-12 mt-20 font-bold text-4xl leading-10 text-center">Our best sellers</h3>
+                
+                <ul class="flex flex-col md:flex-row justify-center md:justify-between">
+                    <li>
+                        <img class="mx-auto" src="./images/guides-first.jpg"
+                        width="309"
+                        height="422"
+                        alt="Guides card first">
+                        <div class="text-center max-w-151 mx-auto mt-7">
+                            <h4 class="font-bold mb-4">
+                                Thalby Guide to French Culture and Heritage
+                            </h4>
+                            <p class="mb-3">
+                                USD 
+                                <ins class="decoration-transparent">6.99</ins>
+                            </p>
+                            <a class="font-bold underline" href="#">Add to cart</a>
+                        </div>
+                    </li>
+                    
+                    <li class="my-9 md:m-0">
+                        <img class="mx-auto" src="./images/guides-second.jpg"
+                        width="309"
+                        height="422"
+                        alt="Guides card second">
+                        <div class="text-center max-w-151 mx-auto mt-7">
+                            <h4 class="font-bold mb-4">
+                                Thalby Guide to French Culture and Heritage
+                            </h4>
+                            <p class="mb-3">
+                                USD 
+                                <ins class="decoration-transparent">6.99</ins>
+                            </p>
+                            <a class="font-bold underline" href="#">Add to cart</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <img class="mx-auto" src="./images/guides-third.jpg"
+                        width="309"
+                        height="422"
+                        alt="Guides card third">
+                        <div class="text-center max-w-151 mx-auto mt-7">
+                            <h4 class="font-bold mb-4">
+                                Thalby Guide to French Culture and Heritage
+                            </h4>
+                            <p class="mb-3">
+                                USD 
+                                <ins class="decoration-transparent">6.99</ins>
+                            </p>
+                            <a class="font-bold underline" href="#">Add to cart</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Guides section ended -->
+        
+        <!-- Feedback section started -->
+        <section class="pt-60">
+            <h2 class="visually-hidden">Thalby: Feedback section</h2>
+            <div class="bg-hero-bg pt-20 pb-14">
+                <div class="container-my">
+                    <div class="flex flex-col md:flex-row text-center md:text-left justify-center">
+                        <img class="md:mr-12 rounded-lg mx-auto md:mx-0"
+                        src="./images/feedback-first.png"
+                        width="385"
+                        height="525"
+                        alt="Feedback image">
+                        
+                        <div class="max-w-498 pt-70 mx-auto md:mx-0">
+                            <h3 class="font-bold text-4xl mb-8">People and Society</h3>
+                            <p class="text-4xl mb-10">
+                                Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.
+                            </p>
+                            <a class="underline font-bold" href="#">Shop Society Guides</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-feedback-bg pt-20 pb-14">
+                <div class="container-my">
+                    <div class="flex flex-col md:flex-row text-center md:text-right justify-center">
+                        <div class="max-w-498 pt-70 mx-auto md:mx-0">
+                            <h3 class="font-bold text-4xl mb-8">Culture and Heritage</h3>
+                            <p class="text-4xl mb-10">
+                                As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture.
+                            </p>
+                            <a class="underline font-bold" href="#">Shop Culture Guides</a>
+                        </div>
+                        
+                        <img class="md:ml-12 rounded-lg mx-auto md:mx-0"
+                        src="./images/feedback-second.png"
+                        width="385"
+                        height="525"
+                        alt="Feedback image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-hero-bg pt-20 pb-14">
+                <div class="container-my">
+                    <div class="flex flex-col md:flex-row text-center md:text-left justify-center">
+                        <img class="md:mr-12 rounded-lg mx-auto md:mx-0"
+                        src="./images/feedback-third.png"
+                        width="385"
+                        height="525"
+                        alt="Feedback image">
+                        
+                        <div class="max-w-498 pt-70 mx-auto md:mx-0">
+                            <h3 class="font-bold text-4xl mb-8">Power and Politics</h3>
+                            <p class="text-4xl mb-10">
+                                Our guides to power take you behind the scenes to explore the power dynamics, policies and politics shaping a country's future and its global position.
+                            </p>
+                            <a class="underline font-bold" href="#">Coming 2022!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Feedback section ended -->
+        
+        <!-- Colors section started -->
+        <section class="pt-48">
+            <div class="container-my">
+                <h2 class="text-2xl md:text-4xl text-center">Some of the features that <br> make Thalby guides unique</h2>
+                <ul class="grid grid-rows-6 sm:grid-rows-3 md:grid-rows-2 grid-flow-col mt-16 pb-40">
+                    <li class="mb-8">
+                        <img class="mx-auto mb-7" src="./images/first-round.png"
+                        width="70" 
+                        height="70"
+                        alt="Rounded colors">
+                        <h3 class="text-center font-bold text-3xl leading-9">
+                            Written by <br> locals
+                        </h3>
+                    </li>
+                    
+                    <li class="mb-8 md:mt-8">
+                        <img class="mx-auto mb-7" src="./images/fourth-round.png"
+                        width="70" 
+                        height="70"
+                        alt="Rounded colors">
+                        <h3 class="text-center font-bold text-3xl leading-9">
+                            Packed with <br> insight
+                        </h3>
+                    </li>
+                    
+                    <li class="mb-8">
+                        <img class="mx-auto mb-7" src="./images/second-round.png"
+                        width="70" 
+                        height="70"
+                        alt="Rounded colors">
+                        <h3 class="text-center font-bold text-3xl leading-9">
+                            Interviews with <br> diverse voices
+                        </h3>
+                    </li>
+                    
+                    <li class="md:mt-8">
+                        <img class="mx-auto mb-7" src="./images/fifth-round.png"
+                        width="70" 
+                        height="70"
+                        alt="Rounded colors">
+                        <h3 class="text-center font-bold text-3xl leading-9">
+                            Key facts and  <br> etiquette tipsy
+                        </h3>
+                    </li>
+                    
+                    <li class="mb-8">
+                        <img class="mx-auto mb-7" src="./images/third-round.png"
+                        width="70" 
+                        height="70"
+                        alt="Rounded colors">
+                        <h3 class="text-center font-bold text-3xl leading-9">
+                            A concise <br> 1-hour read
+                        </h3>
+                    </li>
+                    
+                    <li class="mt-8 sm:mt-0 md:mt-8">
+                        <img class="mx-auto mb-7" src="./images/sixth-round.png"
+                        width="70" 
+                        height="70"
+                        alt="Rounded colors">
+                        <h3 class="text-center font-bold text-3xl leading-9">
+                            Instant <br> digital access
+                        </h3>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+        <!-- Colors section ended -->
+        
+        <!-- Interviews section started -->
+        <section>
+            <div class="max-w-705 mx-auto pb-56">
+                <h2 class="font-bold text-2xl md:text-4xl text-center leading-10">Each Thalby guide includes interviews with a range of fascinating voices, such as</h2>
+            </div>
+            
+            <div class="feedback-wrapper bg-hero-bg mt-28 h-auto md:h-480 pb-16">
+                <div class="container-my">
+                    <ul class="grid grid-rows-3 md:grid-rows-1 grid-flow-col md:pt-48">
+                        <li class="flex flex-col justify-center items-center text-center relative mb-8 md:mb-0">
+                            <img class="mb-9 mx-auto static md:absolute bottom-64" src="./images/man-image.png"
+                            width="288"
+                            height="351"
+                            alt="Man image">
+                            <div class="max-w-248 mb-10">
+                                <h3 class="font-bold text-feedbackTitle">
+                                    "I don’t like things to be conventional. If it’s too nice, I bring disorder."
+                                </h3>
+                            </div>
+                            <p class="mb-11 text-xl">
+                                Camille Muller, <br> Landscape Designer, France
+                            </p>
+                            <a class="text-center font-bold underline" href="#">Discover</a>
+                        </li>
+                        
+                        <li class="flex flex-col justify-center items-center text-center relative mb-8 md:mb-0 pt-96 md:pt-0">
+                            <img class="mb-9 mx-auto absolute bottom-64" src="./images/girl-first.png"
+                            width="288"
+                            height="351"
+                            alt="Man image">
+                            <div class="max-w-248 mb-10">
+                                <h3 class="font-bold text-feedbackTitle">
+                                    "I don’t like things to be conventional. If it’s too nice, I bring disorder."
+                                </h3>
+                            </div>
+                            <p class="mb-11 text-xl">
+                                Camille Muller, <br> Landscape Designer, France
+                            </p>
+                            <a class="text-center font-bold underline" href="#">Discover</a>
+                        </li>
+                        
+                        <li class="flex flex-col justify-center items-center text-center relative mb-8 md:mb-0 pt-96 md:pt-0">
+                            <img class="mb-9 mx-auto absolute bottom-64" src="./images/girl-second.png"
+                            width="288"
+                            height="351"
+                            alt="Man image">
+                            <div class="max-w-248 mb-10">
+                                <h3 class="font-bold text-feedbackTitle">
+                                    "I don’t like things to be conventional. If it’s too nice, I bring disorder."
+                                </h3>
+                            </div>
+                            <p class="mb-11 text-xl">
+                                Camille Muller, <br> Landscape Designer, France
+                            </p>
+                            <a class="text-center font-bold underline" href="#">Discover</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Interviews section ended -->
+        
+        <!-- Contact section started -->
+        <section class="pt-20 pb-20">
+            <div class="container-my">
+                <div class="max-w-498 text-center mx-auto">
+                    <h2 class="font-bold text-3xl mb-2">
+                        Keep in touch
+                    </h2>
+                    <p class="font-bold text-lg">
+                        Get our travel advice, global views and travel freebies in your inbox
+                    </p>
+                </div>
+                
+                <form class="max-w-366 mx-auto mt-6 flex flex-wrap" action="https://echo.htmlacademy.ru/courses" method="POST" autocomplete="off">
+                    <div class="flex mb-5">
+                        <input class="border border-black py-3 pl-2 mr-14 w-3/6" type="text" name="user_name" placeholder="First Name" aria-label="First Name" required>
+                        <input class="border border-black py-3 pl-2 w-3/6" type="text" name="user_lastName" placeholder="Last Name" aria-label="Last Name" required>
+                    </div>
+                    <input class="border border-black py-3 pl-2 w-full" type="email" name="user_email" placeholder="Email" aria-label="Email">
+                    <button class="max-w-115 mx-auto text-contact text-center mt-4 border bg-black text-white py-2 px-6 rounded-full" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <!-- Contact section ended -->
+    </main>
+    <!-- Main styles ended -->
+    
+    <!-- Footer styles started -->
+    <footer class="site-footer bg-black pt-12 pb-4 text-white text-center md:text-left">
+        <div class="container-my">
+            <div class="flex flex-col md:flex-row md:justify-between">
+                <div class="flex flex-col items-center">
+                    <a class="mb-9" href="#">
+                        <img src="./images/site-footer-logo.svg"
+                        width="129"
+                        height="41"
+                        alt="Site footer logo">
+                    </a>
+                    <ul class="flex">
+                        <li>
+                            <a href="https://www.facebook.com/" target="blank">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.3331 26V14.1409H21.9339L22.7741 9.51753H16.3352V6.56577C16.3352 5.22906 16.8546 4.31753 19.5568 4.31753H23V0.180471C22.4047 0.125412 20.3611 0 17.9819 0C13.0144 0 9.61556 2.15341 9.61556 6.10847V9.51906H4V14.1409H9.61556V26H16.3331Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mx-4">
+                            <a href="https://www.instagram.com/" target="blank">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_186)">
+                                        <path d="M-6.09763 32.4687H31.0452V-6.53125H-6.09763V32.4687Z" fill="black"/>
+                                        <path d="M22.5581 18.3689C22.5581 19.9939 22.1087 21.3031 21.211 22.1936C20.3109 23.0854 19.0642 23.5585 17.5661 23.5585H7.38152C5.88342 23.5585 4.63542 23.0854 3.73656 22.1936C2.83894 21.2511 2.38704 19.9406 2.38704 18.3156V7.56855C2.38704 5.99555 6.42818 0.91255 7.3258 -0.03125C2.98628 -0.02865 0.0928497 3.01075 0.0928497 7.56855V18.3144C0.0928497 20.5686 0.791135 22.5094 2.18895 23.9238C3.53723 25.2862 5.33371 25.9688 7.38152 25.9688H17.5661C19.7117 25.9688 21.5094 25.2342 22.8069 23.9238C24.1552 22.5614 24.8548 20.6218 24.8548 18.3676V7.56855C24.8548 5.36765 24.1552 3.48005 22.8577 2.11765C21.5602 0.70195 19.7105 -0.03125 17.6156 -0.03125H7.32952L3.73656 3.74395C4.5859 2.85215 5.88342 2.38025 7.38152 2.38025H17.6651C19.1632 2.38025 20.4112 2.85215 21.3101 3.79725C22.1594 4.73975 22.6571 6.05015 22.6571 7.56985V18.3689H22.5581ZM19.0134 7.72585C19.207 7.7318 19.3997 7.6969 19.5802 7.62324C19.7606 7.54957 19.9252 7.43863 20.0641 7.29699C20.203 7.15535 20.3134 6.98588 20.3888 6.79861C20.4642 6.61135 20.5031 6.41011 20.5031 6.2068C20.5031 6.00349 20.4642 5.80225 20.3888 5.61498C20.3134 5.42772 20.203 5.25825 20.0641 5.11661C19.9252 4.97497 19.7606 4.86403 19.5802 4.79036C19.3997 4.7167 19.207 4.6818 19.0134 4.68775C18.6371 4.69931 18.2798 4.86442 18.0175 5.14804C17.7551 5.43165 17.6084 5.81145 17.6084 6.2068C17.6084 6.60215 17.7551 6.98194 18.0175 7.26556C18.2798 7.54918 18.6371 7.71429 19.0134 7.72585ZM12.4738 17.2678C11.3894 17.2627 10.3508 16.8081 9.58404 16.003C8.81725 15.1979 8.38431 14.1074 8.37942 12.9688C8.38431 11.8301 8.81725 10.7396 9.58404 9.93449C10.3508 9.12937 11.3894 8.67478 12.4738 8.66965C13.5582 8.67478 14.5968 9.12937 15.3636 9.93449C16.1304 10.7396 16.5633 11.8301 16.5682 12.9688C16.563 14.1071 16.1299 15.1973 15.3631 16.0022C14.5964 16.807 13.558 17.2614 12.4738 17.2665V17.2678ZM12.4738 6.25945C8.9799 6.25945 6.08399 9.24685 6.08399 12.9688C6.08171 13.8505 6.24542 14.724 6.56573 15.5391C6.88604 16.3542 7.35662 17.0948 7.95042 17.7183C8.54423 18.3418 9.24954 18.8359 10.0258 19.1722C10.8021 19.5085 11.634 19.6805 12.4738 19.678C16.0185 19.678 18.8624 16.6374 18.8624 12.97C18.8624 9.29885 15.9677 6.25945 12.4738 6.25945Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_186">
+                                            <rect width="26" height="26" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/?lang=ru" target="blank">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_192)">
+                                        <path d="M26 3.07694C25.0455 3.60194 24.0148 3.95174 22.9385 4.10794C24.0402 3.29564 24.883 2.00844 25.2842 0.477441C24.2534 1.22724 23.1111 1.77714 21.8977 2.07084C20.9227 0.795941 19.5366 0.00244141 18.0034 0.00244141C15.0587 0.00244141 12.6726 2.93944 12.6726 6.56364C12.6726 7.07604 12.7182 7.57594 12.8095 8.05714C8.37719 7.78214 4.44762 5.17014 1.81755 1.19594C1.3606 2.16464 1.09662 3.29564 1.09662 4.49534C1.09662 6.76994 2.03587 8.78204 3.46766 9.95684C2.59422 9.92544 1.77181 9.62554 1.05088 9.13814V9.21934C1.05088 12.3999 2.88875 15.0556 5.33088 15.6555C4.88401 15.8055 4.41195 15.8867 3.92445 15.8867C3.5793 15.8867 3.24926 15.8429 2.91922 15.7679C3.59961 18.3736 5.5696 20.2733 7.89985 20.3295C6.07213 22.0917 3.77722 23.1415 1.27423 23.1415C0.842796 23.1415 0.421271 23.1102 -9.15527e-05 23.0477C2.36591 24.9161 5.16847 25.9971 8.17918 25.9971C17.9882 25.9971 23.3547 15.9928 23.3547 7.31954C23.3547 7.03214 23.3496 6.75094 23.3395 6.46974C24.3804 5.55134 25.2842 4.39534 26 3.07694Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_192">
+                                            <rect width="26" height="26" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="flex justify-center md:justify-start">
+                    <div class="mr-24">
+                        <p class="my-9 md:mt-0">ABOUT</p>
+                        <ul class="">
+                            <li class="mb-3">
+                                <a class="text-contact" href="#">About Us</a>
+                            </li>
+                            <li class="mb-3">
+                                <a class="text-contact" href="#">Privacy Policy</a>
+                            </li>
+                            <li class="mb-3">
+                                <a class="text-contact" href="#">Terms and Conditions</a>
+                            </li>
+                            <li>
+                                <a class="text-contact" href="#">Write for Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <p class="my-9 md:mt-0">CONTACT</p>
+                        <ul class="">
+                            <li class="mb-3">
+                                <a class="text-contact" href="#">Email hi@thalby.com</a>
+                            </li>
+                            <li>
+                                <a class="text-contact" href="#">Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <span class="flex justify-center mt-5">Thalby LLC © 2021</span>
+        </div>
+    </footer>
+    <!-- Footer styles ended -->
+    
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src:
+  url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: 
+  url("../fonts/roboto-v30-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/roboto-v30-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* GENERAL */
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+ul,
+li{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+html{
+  height: 100%;
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  height: auto;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* STICKY-FOOTER */
+.site-main{
+  flex-grow: 1;
+}
+
+.container-my{
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header--active .site-header__nav{
+  display: flex!important;
+}
+
+@media screen and (min-width: 768px){
+  .leading-hero-title{
+    line-height: 70px !important;
+  }
+  .hero{
+    background-image: url("/src/images/hero-img.png");
+    background-repeat: no-repeat;
+    background-size: 599px 512px;
+    background-position: calc(50% + 380px);
+  }
+}
